@@ -3,7 +3,7 @@ FROM jekyll/jekyll
 RUN apk update && apk upgrade && apk add zip && apk add --no-cache util-linux
 
 RUN gem install jekyll-paginate-v2
-RUN gem instal github-pages
+RUN gem install github-pages
 
 RUN wget https://github.com/mikefarah/yq/releases/download/v4.15.1/yq_linux_amd64 -O /usr/bin/yq && chmod +x /usr/bin/yq
 
