@@ -9,6 +9,6 @@ rm -rf site.zip
 zip -r site.zip _site
 chmod 777 site.zip
 
-#rm /srv/jekyll/_config.yml
-#mv /srv/jekyll/_config.yml.bak /srv/jekyll/_config.yml
+rm /srv/jekyll/_config.yml
+mv /srv/jekyll/_config.yml.bak /srv/jekyll/_config.yml
 chmod 777 _config.yml
